@@ -3,6 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
+    formats: ['image/webp'],
     remotePatterns: [
       {
         hostname: "**.unsplash.com"
